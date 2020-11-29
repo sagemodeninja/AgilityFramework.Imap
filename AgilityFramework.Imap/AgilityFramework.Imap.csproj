@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>Gary Antier</Authors>
+    <Description>This repository contains an easy-to-use and well-documented .NET assembly for communicating with and receiving electronic mail from an Internet Message Access Protocol (IMAP) server.</Description>
+    <Copyright>Copyright © 2020 Gary Antier</Copyright>
+    <PackageLicenseUrl>https://github.com/sagemodeninja/AgilityFramework.Imap/blob/master/License.md</PackageLicenseUrl>
+    <Owners>Gary Antier</Owners>
+    <PackageProjectUrl>https://github.com/sagemodeninja/AgilityFramework.Imap</PackageProjectUrl>
+    <Title>AgilityFramework.Imap</Title>
   </PropertyGroup>
 
 </Project>
