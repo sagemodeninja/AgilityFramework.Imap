@@ -37,7 +37,10 @@ Read smiley22's repository [readme](https://github.com/smiley22/S22.Imap/blob/ma
 ### Credits
 
 Copyright © 2020 Gary Antier.
-```c# RIPEMD160Managed``` are based on **[System.Security.Cryptography.RIPEMD160](https://github.com/darrenstarr/RIPEMD160.net)** project.
+
+Original project [S22.Imap](https://github.com/smiley22/S22.Imap) copyright © 2012-2014 Torben Könke.
+
+```RIPEMD160Managed``` are based on **[System.Security.Cryptography.RIPEMD160](https://github.com/darrenstarr/RIPEMD160.net)** project.
 
 ### License
 
