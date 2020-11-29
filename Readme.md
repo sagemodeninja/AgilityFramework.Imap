@@ -8,7 +8,7 @@ receiving electronic mail from an Internet Message Access Protocol (IMAP) server
 
 ### Downloads
 
-You can get the latest package on [Nuget](http://nuget.org/).
+You can get the latest package on [Nuget](https://www.nuget.org/packages/AgilityFramework.Imap/).
 
 ### Usage & Examples
 
