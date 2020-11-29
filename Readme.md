@@ -8,13 +8,7 @@ receiving electronic mail from an Internet Message Access Protocol (IMAP) server
 
 ### Downloads
 
-You can always get the latest package on [Nuget](http://nuget.org/packages/S22.Imap/) (includes 
-.NET 4.0 and 3.5 binaries) or download the binaries (targeting .NET 4.0) as a .zip archive from 
-[here](http://smiley22.github.com/Downloads/S22.Imap.zip). The
-[documentation](http://smiley22.github.com/S22.Imap/Documentation/) is also available for offline
-viewing as HTML or CHM and can be downloaded from 
-[here](http://smiley22.github.com/Downloads/S22.Imap.Html.Documentation.zip) and 
-[here](http://smiley22.github.com/Downloads/S22.Imap.Chm.Documentation.zip), respectively.
+You can get the latest package on [Nuget](http://nuget.org/).
 
 ### Usage & Examples
 
