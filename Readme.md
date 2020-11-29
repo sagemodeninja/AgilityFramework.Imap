@@ -3,43 +3,22 @@
 This repository contains an easy-to-use and well-documented .NET assembly for communicating with and
 receiving electronic mail from an Internet Message Access Protocol (IMAP) server.
 
-**Note:** This repository is a direct port of http://smiley22.github.com/Downloads/S22.Imap.zip
-          to .Net Standard 2.1
+**Note:** This is a direct port of [S22.Imap](https://github.com/smiley22/S22.Imap)
+          into .NET Standard.
 
 ### Downloads
 
-[comment] <> (You can always get the latest package on [Nuget](http://nuget.org/packages/S22.Imap/) (includes )
-[comment] <> (.NET 4.0 and 3.5 binaries) or download the binaries (targeting .NET 4.0) as a .zip archive from )
-[comment] <> ([here](http://smiley22.github.com/Downloads/S22.Imap.zip). The)
-[comment] <> ([documentation](http://smiley22.github.com/S22.Imap/Documentation/) is also available for offline)
-[comment] <> (viewing as HTML or CHM and can be downloaded from )
-[comment] <> ([here](http://smiley22.github.com/Downloads/S22.Imap.Html.Documentation.zip) and )
-[comment] <> ([here](http://smiley22.github.com/Downloads/S22.Imap.Chm.Documentation.zip), respectively.)
+You can always get the latest package on [Nuget](http://nuget.org/packages/S22.Imap/) (includes 
+.NET 4.0 and 3.5 binaries) or download the binaries (targeting .NET 4.0) as a .zip archive from 
+[here](http://smiley22.github.com/Downloads/S22.Imap.zip). The
+[documentation](http://smiley22.github.com/S22.Imap/Documentation/) is also available for offline
+viewing as HTML or CHM and can be downloaded from 
+[here](http://smiley22.github.com/Downloads/S22.Imap.Html.Documentation.zip) and 
+[here](http://smiley22.github.com/Downloads/S22.Imap.Chm.Documentation.zip), respectively.
 
 ### Usage & Examples
 
-To use the library add the S22.Imap.dll assembly to your project references in Visual Studio. Here's
-a simple example that initializes a new instance of the ImapClient class and connects to Gmail's
-IMAP server:
-
-	using System;
-	using S22.Imap;
-
-	namespace Test {
-		class Program {
-			static void Main(string[] args) {
-				// Connect on port 993 using SSL.
-				using (ImapClient Client = new ImapClient("imap.gmail.com", 993, true))
-				{
-					Console.WriteLine("We are connected!");
-				}
-			}
-		}
-	}
-
-[Here](https://github.com/smiley22/S22.Imap/blob/master/Examples.md) are a couple of examples of how to use
-the library. Please also see the [documentation](http://smiley22.github.com/S22.Imap/Documentation/) for
-further details on using the classes and methods exposed by the S22.Imap namespace.
+Read smiley22's repository [readme](https://github.com/smiley22/S22.Imap/blob/master/Readme.md) to learn more.
 
 ### Features
 
@@ -50,24 +29,20 @@ further details on using the classes and methods exposed by the S22.Imap namespa
 + Inherently thread-safe
 + Well documented with lots of example code
 + Robust MIME parser, tested with 100.000+ mails
-+ Supports various authentication mechanisms (SCRAM-SHA-1, OAUTH2, NTLM among [others](https://github.com/smiley22/S22.Imap/blob/master/AuthMethod.cs))
++ Supports various authentication mechanisms (SCRAM-SHA-1, OAUTH2, NTLM among [others](https://github.com/sagemodeninja/AgilityFramework.Imap/blob/master/AuthMethod.cs))
 + Integrates well with existing System.Net.Mail infrastructure
 + Still supports .NET 3.5
-+ Free to use in commercial and personal projects ([MIT license](https://github.com/smiley22/S22.Imap/blob/master/License.md))
++ Free to use in commercial and personal projects [MIT license](https://github.com/sagemodeninja/AgilityFramework.Imap/blob/master/License.md)
 
 ### Credits
 
-This library is copyright © 2012-2014 Torben Könke.
-
-Parts of this library are based on the AE.Net.Mail project (copyright © 2012 Andy Edinborough).
-
+Copyright © 2020 Gary Antier.
+```c# RIPEMD160Managed``` are based on **[System.Security.Cryptography.RIPEMD160](https://github.com/darrenstarr/RIPEMD160.net)** project.
 
 ### License
 
-This library is released under the [MIT license](https://github.com/smiley22/S22.Imap/blob/master/License.md).
-
+This library is released under the [MIT license](https://github.com/sagemodeninja/AgilityFramework.Imap/blob/master/License.md).
 
 ### Bug reports
 
-Please send your bug reports to [smileytwentytwo@gmail.com](mailto:smileytwentytwo@gmail.com) or create a new
-issue on the GitHub project homepage.
+Please send your bug reports to [contact@garyantier.com](mailto:contact@garyantier.com).
